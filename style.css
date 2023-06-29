@@ -1,0 +1,29 @@
+nav {
+  z-index: 2;
+  top: 0;
+}
+
+.navbar-text,
+.nav-link {
+  color: white;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+main {
+  height: 200vh;
+}
+
+.section1 {
+  min-height: 100vh;
+  background-image: url("./media/Spoliarium.jpg");
+  background-attachment: scroll;
+  background-position: top center;
+  background-size: cover;
+}
